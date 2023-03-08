@@ -9,10 +9,11 @@ body {
 }
 
 .header{
-    padding: 20px;
+    padding:20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+  
 }
 
 h1{
@@ -27,10 +28,11 @@ h1{
 
 .header nav {
     padding-top: 15px;
-    margin-right: 20px;
+    margin-left: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+
 }
 
 .header nav ul li {
@@ -46,14 +48,11 @@ a {
 p {
     font-size: 16px;
 }
-
+/*moved img to HTML set height to auto to stop image distortion*/
 .hero {
-    height: 800px;
+    height:auto;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+   
 }
 /*grouped repetitive classes*/
 .float-left,.float-right {
@@ -65,6 +64,7 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
 
 .benefits {
@@ -116,19 +116,13 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+   
 }
 
-.search-engine-optimization img {
+.search-engine-optimization img,.online-reputation-management img,.social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
 
 /*removed rendundat CSS for 'h2' elements*/
 h2 {
@@ -136,13 +130,11 @@ h2 {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    text-align:center;
 }
 
-.footer h2 {
-    font-size: 20px;
-}
+
