@@ -13,13 +13,11 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-  
 }
 
 h1{
     display: inline-block;
     font-size: 48px;
-    
 }
 
 .seo {
@@ -32,7 +30,6 @@ h1{
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-
 }
 
 .header nav ul li {
@@ -48,14 +45,15 @@ a {
 p {
     font-size: 16px;
 }
+
 /*moved img to HTML set height to auto to stop image distortion*/
-.hero {
+.background-image {
     height:auto;
     width: 100%;
-   
 }
+
 /*grouped repetitive classes*/
-.float-left,.float-right {
+.sub-images{
     float: left;
     margin-right: 25px;
 }
@@ -64,10 +62,9 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    
 }
 
-.benefits {
+.side-content {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -77,6 +74,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 /*grouped repetitive classes*/
 .benefit-lead,.benefit-brand,.benefit-cost  {
     margin-bottom: 32px;
@@ -84,25 +82,12 @@ p {
 }
 
 /*grouped repetitive classes*/
-.benefit-lead,.benefit-brand,.benefit-cost h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-brand img,.benefit-cost img,.benefit-lead img  {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -116,13 +101,11 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-   
 }
 
 .search-engine-optimization img,.online-reputation-management img,.social-media-marketing img {
     max-height: 200px;
 }
-
 
 /*removed rendundat CSS for 'h2' elements*/
 h2 {
@@ -130,11 +113,10 @@ h2 {
     font-size: 36px;
 }
 
+/*condensed footer elements*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align:center;
 }
-
-
