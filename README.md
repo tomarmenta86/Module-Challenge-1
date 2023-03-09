@@ -26,7 +26,7 @@ Refactor Horiseon starter code to ensure the presence and functionality of acces
 * Acceptance criteria is met 
 * Requiirments are satisfied
 
-![Screenshot1](assets/images/Horiseon deployed refactor1.png)
-![Screenshot2](assets/images/Horiseon deployed refactor2.png)
+![Screenshot1](./assets/images/Horiseon%20deployed%20refactor1.png)
+![Screenshot2](./assets/images/Horiseon%20deployed%20refactor2.png)
 
 Deployed URL: https://tomarmenta86.github.io/TJ-M1-Horiseon-Refactor/
