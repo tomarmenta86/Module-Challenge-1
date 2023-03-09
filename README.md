@@ -7,8 +7,6 @@ Refactor Horiseon starter code to ensure the presence and functionality of acces
 
 - Implement CCS nad HTML learnings to clean up code, lending to code efficiency and sustainability
 
-
-
 ## Acceptance Criteria
 
 * Semantic HTML elements with logical structure
@@ -22,10 +20,11 @@ Refactor Horiseon starter code to ensure the presence and functionality of acces
 * Repo follows best practice with multiple commits
 * Quality README with description, Sreenshot, and Link to deployed app
 
-# Is Complete When...
+## Is Complete When...
 * Acceptance criteria is met 
-* Requiirments are satisfied
+* Requirments are satisfied
 
+## Screenshots of Refactored Site
 ![Screenshot1](./assets/images/Horiseon%20deployed%20refactor1.png)
 ![Screenshot2](./assets/images/Horiseon%20deployed%20refactor2.png)
 
